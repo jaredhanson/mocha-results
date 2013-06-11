@@ -27,7 +27,7 @@ define(function() {
 
     runner.on('end', function() {
       runner.stats.failed = failed;
-      global.mochaResults = runner.stats;
+      window.mochaResults = runner.stats;
     });
   };
   
