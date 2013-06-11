@@ -1,0 +1,37 @@
+{
+  "name": "mocha-results",
+  "version": "0.0.0",
+  "description": "Mocha results aggregator for use with Selenium.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/mocha-results.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/mocha-results/issues"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "mocha-results",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha-phantomjs": "2.x.x",
+    "deamdify": "0.1.x"
+  },
+  "browserify": {
+    "transform": "deamdify"
+  },
+  "volo": {
+    "dependencies": {
+    }
+  }
+}
