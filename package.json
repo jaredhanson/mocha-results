@@ -1,6 +1,6 @@
 {
   "name": "mocha-results",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Mocha results aggregator for use with Selenium.",
   "repository": {
     "type": "git",
