@@ -1,6 +1,6 @@
 # mocha-results
 
-This module listens to [Mocha](http://visionmedia.github.io/mocha/) `runner`
+This module listens to [Mocha](http://mochajs.org/) `runner`
 events and populates `window.mochaResults` which may be used by Selenium to
 report on results.
 
